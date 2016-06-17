@@ -1,0 +1,25 @@
+Source: mkalias
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Luciano Prestes Cavalcanti <lucianopcbr@gmail.com>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               ruby-rspec
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/mkalias.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/mkalias.git
+Homepage: https://github.com/LucianoPC/mkalias
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: mkalias
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: bash alias management to facilitate alias creation
+ Mkalias helps users to create alias, list alias and remove. All alias are
+ saved on ~/.bashrc, creating an alias and a function to alias, all functions
+ name have prefix 'mkalias', and the alias are added on end of .bashrc file
