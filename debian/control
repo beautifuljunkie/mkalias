@@ -19,7 +19,7 @@ XB-Ruby-Versions: ${ruby:Versions}
 Depends: ruby | ruby-interpreter,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: bash alias management to facilitate alias creation
- Mkalias helps users to create alias, list alias and remove. All alias are
+Description: Bash alias management to facilitate alias creation
+ Mkalias helps users to create alias, list alias and remove then. All alias are
  saved on ~/.bashrc, creating an alias and a function to alias, all functions
- name have prefix 'mkalias', and the alias are added on end of .bashrc file
+ name have 'mkalias' prefixed, and the alias are added on end of ~/.bashrc file
