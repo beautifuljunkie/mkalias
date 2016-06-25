@@ -1,3 +1,9 @@
+mkalias (1.0.10-2) UNRELEASED; urgency=medium
+
+  * debian/control: set 'utils' section. Thanks Josh Triplett (Closes: #828079)
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Sat, 25 Jun 2016 10:40:28 -0300
+
 mkalias (1.0.10-1) unstable; urgency=medium
 
   * Initial release (Closes: #828007)
