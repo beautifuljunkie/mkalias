@@ -1,12 +1,4 @@
-mkalias (1.0.10-2) unstable; urgency=medium
+mkalias (1.0.69) RELEASED; urgency=medium
 
-  * Team upload.
-  * debian/control: set 'utils' section. Thanks Josh Triplett (Closes: #828079)
-
- -- Lucas Kanashiro <kanashiro@debian.org>  Sat, 25 Jun 2016 10:43:06 -0300
-
-mkalias (1.0.10-1) unstable; urgency=medium
-
-  * Initial release (Closes: #828007)
-
- -- Luciano Prestes Cavalcanti <lucianopcbr@gmail.com>  Fri, 17 Jun 2016 11:41:48 -0300
+  * Initial release. 
+ -- Michael J Braun <braun.josef.michael@gmail.com>  Tue, 25 Dec 2018 23:28:10 +0800

@@ -1,3 +1,3 @@
 module Mkalias
-  VERSION = '1.0.10'.freeze
+  VERSION = '1.0.69'.freeze
 end

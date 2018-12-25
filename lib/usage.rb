@@ -38,11 +38,11 @@ options:
 
   def option_signals
     %(  add_signal \t $ mkalias add_signal
-  \t\t - Add signal to run 'source ~/.bashrc' when
+  \t\t - Add signal to run 'source ~/.bash_aliases' when
   \t\t - add or remove an alias
 
   remove_signal  $ mkalias remove_signal
-  \t\t - Remove signal to run 'source ~/.bashrc' when
+  \t\t - Remove signal to run 'source ~/.bash_aliases' when
   \t\t - add or remove an alias
     )
   end

@@ -6,7 +6,7 @@ module Mkalias
   module_function
 
   SIGNAL_NAME = 'USR1'.freeze
-  BASHRC_PATH = "#{File.expand_path('~')}/.bashrc".freeze
+  BASHRC_PATH = "#{File.expand_path('~')}/.bash_aliases".freeze
 
   def new_alias(alias_name, commands, file_path = BASHRC_PATH)
     alias_names = Mkalias.list_alias(file_path)
