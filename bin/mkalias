@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'commands/mka'
+
+def main
+  Mka.run(ARGV)
+end
+
+main
