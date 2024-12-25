@@ -7,7 +7,7 @@ require 'mkalias'
   class RemoveSignal < Command
   def self.options_messages
     %(  remove_signal  $ mkalias remove_signal
-  \t\t - Remove signal to run 'source ~/.bashrc' when
+  \t\t - Remove signal to run 'source ~/.zsh_aliases' when
   \t\t - add or remove an alias
     )
   end
@@ -25,7 +25,7 @@ require 'mkalias'
 
     if result
       puts 'The signal was removed'
-      puts " - Run '$ source ~/.bashrc' to update your bash"
+      puts " - Run '$ source ~/.zsh_aliases' to update your zsh"
     else
       puts 'The signal does not exist to be removed'
     end

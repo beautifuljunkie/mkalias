@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Luciano Prestes Cavalcanti']
   spec.email         = ['lucianopcbr@gmail.com']
 
-  spec.summary       = 'A program to create bash alias'
-  spec.description   = 'MKalias is a bash alias manage, when you can just' \
+  spec.summary       = 'A program to create zsh alias'
+  spec.description   = 'MKalias is a zsh alias manage, when you can just' \
                        ' add a command and you can add a new alias, list' \
                        ' the alias, show the alias command or remove the' \
                        ' alias.'

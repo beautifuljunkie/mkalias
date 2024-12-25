@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-FILE_PATH = './test_bashrc'.freeze
+FILE_PATH = './test_zsh_aliases'.freeze
 
 describe Mkalias do
   it 'has a version number' do

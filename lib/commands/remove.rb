@@ -44,7 +44,7 @@ class Remove < Command
     if Mkalias.signal?
       `kill -USR1 #{Process.ppid}`
     else
-      puts " - Run '$ source ~/.bashrc' to use your alias"
+      puts " - Run '$ source ~/.zsh_aliases' to use your alias"
     end
   end
 
