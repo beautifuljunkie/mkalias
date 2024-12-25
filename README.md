@@ -39,11 +39,13 @@ add a new alias, list the alias, show the alias command or remove the alias.
 
 
 ## Build
-$ gem build
+   
+    $ gem build
 
 ## Systemwide Install
 
-$ sudo gem install ./mkalias-1.0.10.gem
+    $ sudo gem install ./mkalias-1.0.10.gem
 
 # User Install
-$ gem install --user-install ./mkalias-1.0.10.gem
+    
+    $ gem install --user-install ./mkalias-1.0.10.gem
